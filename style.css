@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #08ca1f;
+    color: #000000;
+    margin: 10px;
+}
+
+h1 {
+    color: #189918; /* Turuncu-kırmızı başlık */
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+hr {
+    border: 1px solid #000000;
+    margin: 20px 0;
+}
+
+h2 {
+    color: #24d924; /* Koyu yeşil başlık */
+    text-align: left;
+    margin-top: 20px;
+}
+
+.blog-post {
+    background-color: #ffffff; /* Krem rengi arka plan */
+    border: 1px solid #dcdcdc;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+}
+
+.blog-post h3 {
+    color: #2ca10f; /* Çelik mavi başlık */
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.blog-post .date {
+    font-size: 0.9em;
+    color: #ffffff; /* Gri tarih rengi */
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #32d027; /* Çelik mavi arka plan */
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+    margin-top: 20px;
+    border-radius: 5px;
+}

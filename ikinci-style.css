@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    background-color: #ffffff;
+    color: #f9f9f9;
+    margin: 10px;
+}
+
+header {
+    background-color: #0d81189a;
+    color: #f9f9f9; /* Sarı başlık rengi */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #07ce07;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 10px;
+}
+
+.blog-post {
+    background-color: #0d3d0a;
+    color: #ffffff;
+    padding: 20px;
+    margin: 20px 0;
+    border-left: 4px solid #072504c7; /* Sol kenarda sarı şerit */
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Koyu gölge */
+}
+
+.blog-post h2 {
+    color: #22af0c; /* Başlıklar için sarı renk */
+    margin-bottom: 10px;
+}
+
+.blog-post .date {
+    font-size: 0.9em;
+    color: #0cd559; /* Açık gri tarih rengi */
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #ffffff;
+    color: #0f8827;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+    border-top: 4px solid #056c0b;
+    margin-top: 20px;
+}
